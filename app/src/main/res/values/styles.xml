@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorAccent">@color/dark_blue</item>
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:colorBackground">@color/very_dark_blue</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="TextAppearance.AppCompat.Button">
+        <item name="color">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+</resources>

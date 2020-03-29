@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Default palette -->
+    <color name="blue">#3282b8</color>
+    <color name="dark_blue">#0f4c75</color>
+
+    <!--    Dark pallette -->
+    <color name="light_blue">#bbe1fa</color>
+    <color name="very_dark_blue">#1b262c</color>
+
+</resources>
