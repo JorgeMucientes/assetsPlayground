@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/icons_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -14,7 +15,7 @@
         android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/battery_charging_full_24px" />
+        tools:src="@drawable/battery_charging_full" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView2"
@@ -24,7 +25,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/book_24px" />
+        tools:src="@drawable/book" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView3"
@@ -35,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/cloud_download_24px" />
+        tools:src="@drawable/cloud_download" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -46,7 +47,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/face_24px" />
+        tools:src="@drawable/face" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -57,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/insert_chart_outlined_24px" />
+        tools:src="@drawable/insert_chart_outlined" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -67,7 +68,7 @@
         android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/perm_media_24px" />
+        tools:src="@drawable/perm_media" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -77,7 +78,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/subway_24px" />
+        tools:src="@drawable/subway" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -87,7 +88,7 @@
         android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/event_24px" />
+        tools:src="@drawable/event" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -97,7 +98,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/important_devices_24px" />
+        tools:src="@drawable/important_devices" />
 
     <Button
         android:id="@+id/change_theme_button"
@@ -105,7 +106,7 @@
         android:layout_width="187dp"
         android:layout_height="56dp"
         android:layout_marginBottom="92dp"
-        android:text="Change theme"
+        android:text="Change App Theme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

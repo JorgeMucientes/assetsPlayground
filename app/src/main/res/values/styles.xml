@@ -13,6 +13,10 @@
         <item name="android:colorBackground">@color/very_dark_blue</item>
     </style>
 
+    <style name="IconHighlightedTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
     <style name="ButtonPrimary" parent="TextAppearance.AppCompat.Button">
         <item name="color">?attr/colorPrimary</item>
         <item name="android:textColor">?attr/colorPrimary</item>
