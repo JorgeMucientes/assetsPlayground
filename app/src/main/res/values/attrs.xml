@@ -4,9 +4,7 @@
     <declare-styleable name="BrandColors">
 
         <!-- General -->
-<!--        <attr name="colorPrimary" format="color|reference" />-->
-<!--        <attr name="colorSecondary" format="color|reference" />-->
-<!--        <attr name="colorPrimaryInverse" format="color|reference" />-->
+        <attr name="colorIconPrimaryAlpha" format="color|reference" />
 
     </declare-styleable>
 </resources>
