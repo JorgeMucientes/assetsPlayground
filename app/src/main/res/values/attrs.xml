@@ -3,7 +3,6 @@
 
     <declare-styleable name="BrandColors">
 
-        <!-- General -->
         <attr name="colorIconPrimaryAlpha" format="color|reference" />
 
     </declare-styleable>
