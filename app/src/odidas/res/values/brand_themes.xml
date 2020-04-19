@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/dark_green</item>
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorIconPrimaryAlpha">@color/green_transparent</item>
+    </style>
+
+    <style name="MyAppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/light_green</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:colorBackground">@color/very_dark_green</item>
+        <item name="colorIconPrimaryAlpha">@color/light_green_transparent</item>
+    </style>
+
+    <style name="IconHighlightedTheme" parent="MyAppTheme">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorIconPrimaryAlpha">@color/blue_transparent</item>
+    </style>
+</resources>

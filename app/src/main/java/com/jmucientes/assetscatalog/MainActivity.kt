@@ -64,15 +64,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun changeSingleIconTheme(imageView: ImageView, @DrawableRes drawableId: Int) {
         val wrapper = ContextThemeWrapper(this, R.style.IconHighlightedTheme)
-        val drawable =
-            ResourcesCompat.getDrawable(resources, drawableId, wrapper.theme)
+        val drawable = ResourcesCompat.getDrawable(resources, drawableId, wrapper.theme)
         imageView.setImageDrawable(drawable)
     }
 
     private fun setCustomTheme() {
         when (selectedTheme) {
-            DEFAULT -> setTheme(R.style.AppTheme)
-            DARK -> setTheme(R.style.AppThemeDark)
+            DEFAULT -> setTheme(R.style.MyAppTheme)
+            DARK -> setTheme(R.style.MyAppThemeDark)
         }
     }
 

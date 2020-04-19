@@ -1,24 +1,4 @@
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="colorAccent">@color/dark_blue</item>
-        <item name="colorPrimary">@color/blue</item>
-        <item name="colorIconPrimaryAlpha">@color/blue_transparent</item>
-    </style>
-
-    <style name="AppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="colorPrimary">@color/light_blue</item>
-        <item name="colorAccent">@color/blue</item>
-        <item name="android:colorBackground">@color/very_dark_blue</item>
-        <item name="colorIconPrimaryAlpha">@color/light_blue_transparent</item>
-    </style>
-
-    <style name="IconHighlightedTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorIconPrimaryAlpha">@color/green_transparent</item>
-    </style>
 
     <style name="ButtonPrimary" parent="TextAppearance.AppCompat.Button">
         <item name="color">?attr/colorPrimary</item>

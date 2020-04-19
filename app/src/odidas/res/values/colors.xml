@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Default theme palette -->
+    <color name="green">#00E676</color>
+    <color name="green_transparent">#9C00E676</color>
+    <color name="dark_green">#00592E</color>
+
+    <!--    Dark theme palette -->
+    <color name="light_green">#4DFFA8</color>
+    <color name="very_dark_green">#002B16</color>
+    <color name="light_green_transparent">#A34DFFA8</color>
+
+    <!--    Highlighted icon theme palette -->
+    <color name="blue">#00E5FF</color>
+    <color name="blue_transparent">#8800E5FF</color>
+
+</resources>
