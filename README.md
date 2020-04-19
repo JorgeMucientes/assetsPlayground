@@ -1,6 +1,9 @@
 # assetsPlayground
-Example project to play around theming assets using android theme atributes
+Android sample project to play around with vector drawables and theme attributes in different ways
 
-Example app on how to easily change theme using the same assets for the app
-![Theme change](https://github.com/JorgeMucientes/assetsPlayground/blob/master/readmeAssets/ezgif.com-video-to-gif.gif)
+The app is very simple, a set of imageviews that reference vectorDrawable assets using theme attributes to set their color. The goal is to showcase how using a single vector asset we can easily restyle it automatically to the app theme o build variant. 
+
+See demo: 
+
+![Theme change](https://github.com/JorgeMucientes/assetsPlayground/blob/master/readmeAssets/appDemo.gif)
 
