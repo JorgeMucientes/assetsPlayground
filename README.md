@@ -1,7 +1,7 @@
 # assetsPlayground
-Android sample project to play around with vector drawables and theme attributes in different ways
+Android sample project to showcase all the concepts explained in **Managing your android app iconography** [article](https://medium.com/makingtuenti/managing-your-android-app-iconography-a2f4aa9cb49d)
 
-The app is very simple, a set of imageviews that reference vectorDrawable assets using theme attributes to set their color. The goal is to showcase how using a single vector asset we can easily restyle it automatically to the app theme o build variant. 
+The app is very simple, a set of imageviews that reference vectorDrawable assets using theme attributes to set their color. The goal is to showcase, how using a single vector asset we can easily restyle it automatically to different app themes or app variants.
 
 See demo: 
 
